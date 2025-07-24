@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Loan & Balance Transfer Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .poster-container {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+            overflow: hidden; /* Ensure rounded corners clip content */
+        }
+        .icon {
+            font-size: 2.5rem; /* Larger icons */
+            margin-bottom: 10px;
+            color: #3b82f6; /* Blue for icons */
+        }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937; /* Darker text for titles */
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .card {
+            background-color: #e0f2fe; /* Lighter blue for cards */
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            color: #374151; /* Medium gray for list items */
+        }
+        .list-item svg {
+            flex-shrink: 0;
+            margin-right: 8px;
+            color: #10b981; /* Green for checkmarks */
+        }
+        .button {
+            background-color: #3b82f6; /* Blue button */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+        }
+        .button:hover {
+            background-color: #2563eb; /* Darker blue on hover */
+            transform: translateY(-2px);
+        }
+        /* Styles for bank logos (images) */
+        .bank-logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%; /* Ensure consistent height for alignment */
+        }
+        .bank-logo-container img {
+            max-height: 40px; /* Max height for logos */
+            width: auto; /* Maintain aspect ratio */
+            margin-bottom: 8px;
+            display: block; /* Remove extra space below image */
+        }
+    </style>
+</head>
+<body>
+    <div class="poster-container">
+        <!-- Main Title -->
+        <h1 class="text-4xl md:text-5xl font-extrabold text-blue-700 mb-6 leading-tight">
+            Your Dream Home Awaits!
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-700 mb-8">
+            Apply for Home Loan & Balance Transfer at the Lowest Interest Rates
+        </p>
+
+        <!-- Key Benefits Section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="flex flex-col items-center p-4 bg-green-50 rounded-lg shadow-sm">
+                <span class="icon">💰</span>
+                <h3 class="text-lg font-semibold text-gray-800">Lowest Interest Rates</h3>
+                <p class="text-sm text-gray-600">Starting from 7.40% p.a.*</p>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-purple-50 rounded-lg shadow-sm">
+                <span class="icon">🚀</span>
+                <h3 class="text-lg font-semibold text-gray-800">Quick & Easy Process</h3>
+                <p class="text-sm text-gray-600">Streamlined application</p>
+            </div>
+            <div class="flex flex-col items-center p-4 bg-yellow-50 rounded-lg shadow-sm">
+                <span class="icon">💸</span>
+                <h3 class="text-lg font-semibold text-gray-800">Save on EMIs</h3>
+                <p class="text-sm text-gray-600">Reduce your monthly burden</p>
+            </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 gap-8">
+            <!-- Documents Section -->
+            <div class="card">
+                <h2 class="section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+                    Documents You'll Need
+                </h2>
+                <ul class="list-none p-0 m-0">
+                    <li class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        **KYC:** Pan & Aadhar card
+                    </li>
+                    <li class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        **Income Proof:**
+                    </li>
+                    <ul class="ml-8 list-disc text-sm text-gray-700">
+                        <li>Salary slip last 3 months</li>
+                        <li>Bank statement last 6 months</li>
+                        <li>Form 16 last 2 years</li>
+                    </ul>
+                    <li class="list-item mt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        **Property Documents:**
+                    </li>
+                    <ul class="ml-8 list-disc text-sm text-gray-700">
+                        <li>Sale deed</li>
+                        <li>Approved plan</li>
+                    </ul>
+                    <li class="list-item mt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        **For Balance Transfer:**
+                    </li>
+                    <ul class="ml-8 list-disc text-sm text-gray-700">
+                        <li>Existing bank loan statement</li>
+                        <li>Foreclosure letter</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <!-- Top Banks Section -->
+            <div class="card">
+                <h2 class="section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                    Top Banks for Home Loans
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+                    <div class="p-3 bg-blue-100 rounded-lg bank-logo-container">
+                        <img src="http://googleusercontent.com/file_content/1000122135.png-f68ed5d7-7043-474d-a2b8-35b18efec1d7" alt="HDFC Bank Logo" />
+                        <p class="font-semibold text-blue-800">HDFC Bank</p>
+                        <p class="text-sm text-gray-700">From 7.40% p.a.*</p>
+                    </div>
+                    <div class="p-3 bg-blue-100 rounded-lg bank-logo-container">
+                        <img src="http://googleusercontent.com/file_content/1000122136.jpg-4aafac3d-158d-4473-ae68-eaa998cd2104" alt="State Bank of India Logo" />
+                        <p class="font-semibold text-blue-800">State Bank of India (SBI)</p>
+                        <p class="text-sm text-gray-700">From 7.50% p.a.*</p>
+                    </div>
+                    <div class="p-3 bg-blue-100 rounded-lg bank-logo-container">
+                        <img src="http://googleusercontent.com/file_content/1000122138.jpg-35a4f30c-30e3-47fe-8153-e4ceb648cace" alt="Bajaj Finserv Logo" />
+                        <p class="font-semibold text-blue-800">Bajaj Finserv</p>
+                        <p class="text-sm text-gray-700">From 7.49% p.a.*</p>
+                    </div>
+                    <div class="p-3 bg-blue-100 rounded-lg bank-logo-container">
+                        <img src="http://googleusercontent.com/file_content/1000122137.jpg-e1edc9e9-60b6-4b73-ae68-eaa998cd2104" alt="Bank of Baroda Logo" />
+                        <p class="font-semibold text-blue-800">Bank of Baroda</p>
+                        <p class="text-sm text-gray-700">From 7.45% p.a.*</p>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">*Rates are indicative and subject to change. Check with individual banks for the latest offers.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <a href="https://wa.me/917503782090?text=Hi%2C%20I%27m%20interested%20in%20a%20home%20loan%20application%20as%20seen%20on%20your%20poster." class="button">
+            Chat with Expert
+        </a>
+    </div>
+</body>
+</html>
